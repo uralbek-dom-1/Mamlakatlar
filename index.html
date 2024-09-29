@@ -15,6 +15,7 @@
 <div class="w3-container w3-card">
     <b class="w3-text-blue-grey w3-xlarge">•&#160; Dunyo Mamlakatlari</b><br>
     <p id="api">https://api.uralbek.uz/uz/books/adjust$pip=?api/countries</p>
+    <button class="btn" onclick="copyContent()">Nusxa oling!</button><br><br>
 </div>
 
 
@@ -38,3 +39,15 @@
         user-select: none;
     }
 </style>
+
+<script>
+  let text = document.getElementById('myText').innerHTML;
+  const copyContent = async () => {
+    try {
+      await navigator.clipboard.writeText(text);
+      console.log('Content copied to clipboard');
+    } catch (err) {
+      console.error('Failed to copy: ', err);
+    }
+  }
+</script>
