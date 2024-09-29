@@ -1,0 +1,2 @@
+# Mamlakatlar
+Uralbek UZ
