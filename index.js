@@ -1,1 +1,3 @@
-var userna
+var username = "Minfi UZ"
+
+con
