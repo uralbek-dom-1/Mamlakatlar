@@ -1,3 +1,3 @@
 var username = "Minfi UZ"
 
-con
+console.log(username)
